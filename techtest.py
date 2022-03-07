@@ -8,9 +8,6 @@ doc_scan_client = DocScanClient(sandbox_client_sdk_id, pem_file_path, api_url="h
 from yoti_python_sandbox.doc_scan.client import DocScanSandboxClient
 
 
-doc_scan_client = DocScanClient(sandbox_client_sdk_id, pem_file_path)
-
-
 
 from yoti_python_sdk.doc_scan import (
     DocScanClient,
@@ -25,9 +22,6 @@ from yoti_python_sdk.doc_scan import (
     NotificationConfigBuilder
 
 )
-
-doc_scan_client = DocScanClient(sandbox_client_sdk_id, pem_file_path)
-
 
 
 sdk_config = (
